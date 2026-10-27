@@ -1,0 +1,27 @@
+# your processed results and caches
+outputs/
+
+# downloaded programs and models
+llama_server/
+*.gguf
+
+# sample/personal documents
+data/*.pdf
+
+# logs
+*.log
+streamlit_log.txt
+
+# Python and Jupyter leftovers
+__pycache__/
+.ipynb_checkpoints/
+Untitled*.ipynb
+.venv/
+venv/
+.env
+
+# old environment check script
+test.py
+
+data/
+*.ipynb
